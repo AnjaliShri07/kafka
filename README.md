@@ -70,11 +70,11 @@ kafka-console-consumer.bat --topic my-topic --bootstrap-server localhost:9092 --
 🔍 **Command Breakdown**
 kafka-console-consumer.bat --topic my-first-topic --bootstrap-server localhost:9092 --from-beginning
 
-| 🔧 **Part** | 💬 **Meaning** |
-| kafka-console-consumer.bat | Starts Kafka’s built-in consumer CLI on Windows |
-| --topic my-first-topic | Specifies which topic you want to consume messages from |
+| 🔧 **Part**                       | 💬 **Meaning** |
+| kafka-console-consumer.bat        | Starts Kafka’s built-in consumer CLI on Windows |
+| --topic my-first-topic            | Specifies which topic you want to consume messages from |
 | --bootstrap-server localhost:9092 | Connects to your local Kafka broker |
-| --from-beginning | Reads all messages from the beginning of the topic, not just new ones |
+| --from-beginning                  | Reads all messages from the beginning of the topic, not just new ones |
 
 📥 What It Does
 When you run this:
